@@ -1,4 +1,4 @@
-# This repository will create Google Cloud [gcp] network, subnet, one instance and its route.
+# This repository will create Google Cloud [gcp] network, subnet, one instance and it's route.
 
 [1] Simply clone the repo.
 
