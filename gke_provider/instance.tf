@@ -1,5 +1,5 @@
-resource "google_compute_instance" "pravin-on-google1" {
-  name         = "pravin-on-google1"
+rresource "google_compute_instance" "greenfield-instance1" {
+  name         = "greenfield-instance1"
   machine_type = "f1-micro"
   zone         = "europe-west2-a"
 
@@ -9,8 +9,8 @@ resource "google_compute_instance" "pravin-on-google1" {
     }
   }
   network_interface {
-    network = google_compute_network.pravin-vpc.name
-    subnetwork = google_compute_subnetwork.pravin-subnetwork1.self_link
+    network = google_compute_network.greenfield-vpc.name
+    subnetwork = google_compute_subnetwork.greenfield-subnet1.self_link
     
     access_config {
       // Ephemeral public IP
@@ -18,7 +18,6 @@ resource "google_compute_instance" "pravin-on-google1" {
   }
 
  metadata = {
-  ssh-keys = "parvesha:${file("<Your-own-path-of-id_rsa.pub>")}"
+  ssh-keys = "YourName:${file("<Your-own-path-of-id_rsa.pub>")}"
   } 
 }
-
