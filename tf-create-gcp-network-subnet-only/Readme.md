@@ -1,8 +1,6 @@
 
-This will 
+# This repository will create Google Cloud [gcp] network and subnet only. 
 
-
-This repository will create Google Cloud network and subnet only. 
 [1] Simply clone the repo.
 
 $ git clone <URL/../../sharmapravin1001.git>
