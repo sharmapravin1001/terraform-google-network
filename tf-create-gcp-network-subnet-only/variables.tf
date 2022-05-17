@@ -1,5 +1,5 @@
 variable "project_id" {  
-default = "stellar-lock-347017"
+default = "Your-Project-ID"
 type = string
 }
 
