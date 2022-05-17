@@ -1,4 +1,4 @@
-# This repository will create the Google Cluster and nodepool along with VPC and subnet. 
+# This repository will create the Google kubernetes Cluster, nodepool along with VPC and it's subnet. 
 
 [1] Simply clone the repo. 
 
